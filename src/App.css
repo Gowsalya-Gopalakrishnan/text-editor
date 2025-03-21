@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;900&display=swap");
+
+.App {
+  max-width: 700px;
+  margin: 5rem auto;
+  font-family: Poppins, sans-serif;
+  /* min-height: 500%; */
+}
+
+/* TitTap Editor Design */
+.MainContent {
+  padding: 10px;
+  /* border-top: 1px solid grey; */
+  background: white;
+  border-radius: 0 0 5px 5px;
+  min-height: 200px;
+}
+.MainContent:focus {
+  border: none;
+  outline: 1px solid aqua;
+}
+
+.MainContent  {
+  margin-top: 0.75em;
+}
+
+.MainContent ul,
+.MainContent ol {
+  padding: 0 2rem;
+}
+
+.MainContent h1,
+.MainContent h2,
+.MainContent h3,
+.MainContent h4,
+.MainContent h5,
+.MainContent h6 {
+  line-height: 1.1;
+}
+
+.MainContent code {
+  background-color: #616161;
+  color: #616161;
+}
+
+.MainContent pre {
+  background: #0d0d0d;
+  color: #fff;
+  font-family: "JetBrainsMono", monospace;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+}
+.MainContent code {
+  color: inherit;
+  padding: 0;
+  background: none;
+  font-size: 0.8rem;
+}
+
+.MainContent img {
+  max-width: 100%;
+  height: auto;
+}
+
+.MainContent blockquote {
+  padding-left: 1rem;
+  border-left: 3px solid #999999;
+}
+
+.MainContent hr {
+  border: none;
+  border-top: 3px solid #999999;
+  margin: 2rem 0;
+}
+
+/* ............................ */
+.textEditor {
+  border-radius: 5px;
+  border: 1px solid grey;
+  height: 500px;
+}
+.textEditor .editor{
+  width: 15%;
+  
+}
+
+.menuBar {
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -15%;
+}
+.menuBar button {
+  font-size: 18px;
+  margin: 7px;
+  margin-right: 15px;
+  outline: none;
+  border: none;
+  background: none;
+  color: rgb(70, 70, 70);
+  cursor: pointer;
+}
+.menuBar button:last-child {
+  margin-right: 7px;
+}
+
+.heading3 {
+  font-size: 15px;
+}
+
+button.is_active {
+  background: rgb(197, 197, 197);
+  padding: 2px 3px;
+  border-radius: 2px;
+}
