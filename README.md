@@ -7,7 +7,7 @@ It offers a flexible API and a wide range of features, allowing developers to cr
 text-editing experiences for web applications with ease.
 
 ### Deployed URL 
-
+https://gowsalya-gopalakrishnan.github.io/text-editor/
 
 ### Screenshots
 
